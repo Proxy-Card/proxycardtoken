@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Client Side Functionality</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://rawgit.com/ethereum/web3.js/0.16.0/dist/web3.min.js"></script>
+    <script src="js/functions.js"></script>
+</head>
+<body>
+<div class="container">
+    <h2>Redeem old ePrx tokens</h2>
+    <form action="#">
+        <div class="form-group">
+            <label for="amount">Amount:</label>
+            <input type="number" class="form-control" id="amount" placeholder="Enter redeem amount" name="amount">
+        </div>
+        <button type="submit" class="btn btn-default" onclick="redeem()">Submit</button>
+    </form>
+</div>
+</body>
+</html>

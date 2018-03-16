@@ -1,0 +1,8 @@
+{
+  "extends": "default",
+  "rules": {
+    "compiler-fixed": false,
+    "no-simple-event-func-name": false,
+    "indent": ["warn", 4]
+  }
+}
